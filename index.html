@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="icon" href="logo22.jpg" />
+
+    <script
+      src="https://kit.fontawesome.com/d32ef6fe58.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Frontend Mentor | Age calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="value-con">
+          <div class="day">
+            <label for="DAY" id="EDay">D A Y </label>
+            <input type="text" placeholder="DD" id="day" />
+            <span id="errorDay"></span>
+          </div>
+
+          <div class="month">
+            <label for="MONTH" id="EMonth">M O N T H </label>
+            <input type="text" placeholder="MM" id="month" />
+            <span id="errorMonth"></span>
+          </div>
+
+          <div class="year">
+            <label for="YEAR" id="EYear">Y E A R </label>
+            <input type="text" placeholder="YYYY" id="year" />
+            <span id="errorYear"></span>
+          </div>
+        </div>
+
+        <span class="line"
+          >________________________________________________</span
+        >
+        <button class="btn" type="button">
+          <i class="fa-solid fa-arrow-down"></i>
+        </button>
+
+        <div class="con"><span id="resultyear">– – </span> years</div>
+        <div class="con"><span id="resultmonth">– – </span> months</div>
+        <div class="con"><span id="resultdays">– – </span> days</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

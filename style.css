@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(213, 222, 243);*/
+  background-color: blueviolet;
+}
+
+.container {
+  height: 580px;
+  width: 600px;
+  background-color: whitesmoke;
+  border-radius: 25px 25px 150px 25px;
+}
+
+.value-con {
+  display: flex;
+  padding: 50px 200px 0px 40px;
+  padding-right: 200px;
+  color: grey;
+}
+
+.value-con label {
+  margin: 10px;
+  font-size: small;
+  font-weight: 700;
+}
+
+.EDayy {
+  color: red;
+}
+
+.EMonthh {
+  color: red;
+}
+.EYearr {
+  color: red;
+}
+
+.value-con input {
+  height: 50px;
+  width: 120px;
+  font-size: larger;
+  font-weight: 800;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 6px;
+  color: black;
+  border: 1px solid lightgray;
+}
+
+.value-con span {
+  color: red;
+  margin-left: 12px;
+  font-size: 11px;
+  /* display: none; */
+}
+
+.line {
+  color: lightgray;
+  margin-left: 50px;
+}
+
+.btn {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+}
+
+.btn:hover {
+  background-color: orangered;
+}
+
+.con {
+  display: flex;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.con span {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-left: 50px;
+  color: blueviolet;
+}
